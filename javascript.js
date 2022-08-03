@@ -3,7 +3,7 @@ var lofi = window.document.getElementById("lofi")
 var musiquinha = window.document.getElementById("musiquinha")
 var tempo = window.document.getElementById("tempo")
 var data = new Date()
-var hora = data.getHours()
+var hora = 14
 var minutos = data.getMinutes()
 
 if (hora >= 1 && hora <= 6) {
